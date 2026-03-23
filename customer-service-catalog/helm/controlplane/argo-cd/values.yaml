@@ -16,11 +16,11 @@ bootstrapValues:
     controlplane-prod:
       projectName: "controlplane-prod"
       managedServices:
-        repoURL: "https://github.com/eschutte/vcluster-platform-blueprint-kubecon-eu-26.git"
+        repoURL: "https://github.com/ErikSchutte/vcluster-platform-blueprint-kubecon-eu-26.git"
         path: "managed-service-catalog/helm"
         targetRevision: "main"
       customerServices:
-        repoURL: "https://github.com/eschutte/vcluster-platform-blueprint-kubecon-eu-26.git"
+        repoURL: "https://github.com/ErikSchutte/vcluster-platform-blueprint-kubecon-eu-26.git"
         path: "customer-service-catalog/helm"
         targetRevision: "main"
       apps:

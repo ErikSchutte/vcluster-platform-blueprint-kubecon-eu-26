@@ -10,10 +10,10 @@ clusters:
         repo:
           https:
             customer:
-              url: https://github.com/eschutte/vcluster-platform-blueprint-kubecon-eu-26.git
+              url: https://github.com/ErikSchutte/vcluster-platform-blueprint-kubecon-eu-26.git
               targetRevision: main
             managed:
-              url: https://github.com/eschutte/vcluster-platform-blueprint-kubecon-eu-26.git
+              url: https://github.com/ErikSchutte/vcluster-platform-blueprint-kubecon-eu-26.git
               targetRevision: main
       certManager:
         status: activated
